@@ -17,7 +17,9 @@
   <link rel="stylesheet" href="js/Leaflet.markercluster-0.5.0/dist/MarkerCluster.css">
   <link href="js/Leaflet.markercluster-0.5.0/example/screen.css">
   <link href="css/locations.css" rel="stylesheet">
+<!--
   <link href="css/jquery-ui.min.css" rel="stylesheet">
+-->
 
   <style>
     ul.ui-autocomplete {
@@ -45,7 +47,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="brand" href="#">Location Browser</a>
+        <a class="brand" href="#">Location Browser (clustered)</a>
         <div class="nav-collapse collapse">
           <ul class="nav">
             <li class="active"><a href="#">Home</a></li>
@@ -68,12 +70,6 @@
             -->
           <input class="keyword" type="text" placeholder="Search…">
 
-          <input id="country" type="text" data-value placeholder="Country …">
-
-
-          <!--
-            <span class="help-block">Example block-level help text here.</span>
-            -->
         </fieldset>
         <!--
           <fieldset>
@@ -88,9 +84,6 @@
             <th>Name</th>
             <th>Latitude</th>
             <th>Longitude</th>
-<!--
-            <th>Country</th>
--->
           </tr>
         </thead>
       </table>
@@ -106,13 +99,13 @@
   <script src="js/jquery.dataTables.min.js"></script>
   <script src="js/leaflet.js"></script>
   <script src="js/Leaflet.markercluster-0.5.0/dist/leaflet.markercluster-src.js"></script>
+<!--
   <script src="js/jquery-ui.min.js"></script>
+-->
+<!--
 	<script src="js/Leaflet.markercluster-0.5.0/example/realworld.388.js"></script>
-  <script src="js/locations.js"></script>
-  
-	<script type="text/javascript">
-
-	</script>
+-->
+  <script src="js/clustered.js"></script>
 </body>
 
 </html>
